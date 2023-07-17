@@ -1,0 +1,22 @@
+h1
+{
+    /* text-align: center; */
+    text-decoration: solid;
+    padding-top: 8%;
+    color: #2192FF;
+}
+body
+{
+    text-align: center;
+    background-color: #1A202C;
+}
+
+.hover-effect img {
+    padding-left: 120px;
+    padding-top: 100px;
+    transition: opacity 0.3s ease;
+  }
+
+  .hover-effect img:hover {
+    opacity: 0.8;
+  }

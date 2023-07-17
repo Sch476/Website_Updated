@@ -1,0 +1,9 @@
+.hover-effect img {
+    padding-left: 120px;
+    padding-top: 100px;
+    transition: opacity 0.3s ease;
+  }
+
+  .hover-effect img:hover {
+    opacity: 0.8;
+  }
