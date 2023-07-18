@@ -20,3 +20,10 @@ body
   .hover-effect img:hover {
     opacity: 0.8;
   }
+
+  @media (max-width: 480px) {
+    .hover-effect img{
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+  }
