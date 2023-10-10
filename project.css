@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f7f7f7;
 }
 
 header {
@@ -21,44 +22,49 @@ header {
 .project-card {
     width: 300px;
     margin: 20px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .project-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.project-card img {
+.project-image img {
     max-width: 100%;
     height: auto;
-    border-bottom: 1px solid #ddd;
+    border-radius: 10px 10px 0 0;
 }
 
-.project-card h2 {
+.project-info {
+    padding: 20px;
+}
+
+.project-info h2 {
     color: #333;
-    margin-top: 10px;
+    margin-top: 0;
 }
 
-.project-card p {
+.project-info p {
     color: #666;
+    margin-bottom: 20px;
 }
 
-.project-card a {
-    display: block;
+.project-info a {
+    display: inline-block;
     background-color: #333;
     color: #fff;
     text-decoration: none;
-    padding: 8px;
-    margin-top: 10px;
+    padding: 8px 15px;
     border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.project-card a:hover {
+.project-info a:hover {
     background-color: #555;
 }
 
